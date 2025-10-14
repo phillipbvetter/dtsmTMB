@@ -1,0 +1,30 @@
+
+<!-- README.md is generated from README.Rmd. -->
+
+<!-- Logo -->
+
+# ctsmTMB <img src='man/figures/logo.png' align="right" height="150" />
+
+<!-- Badges -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/ctsmTMB)](https://CRAN.R-project.org/package=ctsmTMB)
+[![R-CMD-check](https://github.com/phillipbvetter/ctsmTMB/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/phillipbvetter/ctsmTMB/actions/workflows/R-CMD-check.yaml)
+[![](https://cranlogs.r-pkg.org/badges/ctsmTMB?color=brightgreen)](https://cran.rstudio.com/web/packages/ctsmTMB/index.html)
+<!-- Package Description -->
+
+# Overview
+
+Welcome to this GitHub repository which hosts **dtsmTMB** [(Discrete
+Time Stochastic Modelling using Template Model
+Builder)](https://phillipbvetter.github.io/ctsmTMB/index.html). The
+purpose of the package is to facilitate a user-friendly tool for (state
+and parameter) inference, and forecasting, in (multi-dimensional)
+discrete-discrete stochastic state space systems, i.e. systems on the
+form
+
+$$
+X_{t+1} = A_t X_{t} + B_t U_t + W_t
+$$ $$
+Y_t = C_t X_t 
+$$

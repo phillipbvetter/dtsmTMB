@@ -1,0 +1,38 @@
+Type: Package
+Package: dtsmTMB
+Title: Discrete Time Stochastic Modelling using Template Model Builder
+Version: 1.0.0
+Date: 2025-10-14
+Authors@R: c(
+    person("Phillip", "Vetter", , "pbrve@dtu.dk", role = c("aut", "cre", "cph")),
+    person("Jan", "Møller", , "jkmo@dtu.dk", role = "ctb"),
+    person("Uffe", "Thygesen", , "uhth@dtu.dk", role = "ctb"),
+    person("Peder", "Bacher", , "pbac@dtu.dk", role = "ctb"),
+    person("Henrik", "Madsen", , "hmad@dtu.dk", role = "ctb")
+  )
+Description: Perform state and parameter inference, and forecasting, in
+    Discrete-time stochastic state-space systems.
+License: GPL-3
+URL: https://github.com/phillipbvetter/dtsmTMB
+BugReports: https://github.com/phillipbvetter/dtsmTMB/issues
+Depends:
+    R (>= 4.0.0)
+Imports:
+    RTMB (>= 1.7),
+    TMB
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+LinkingTo:
+    Rcpp,
+    RcppEigen,
+    zigg
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3
+Copyright: See the file COPYRIGHTS
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
